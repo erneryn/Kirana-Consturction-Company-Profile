@@ -9,6 +9,7 @@ import { BButton } from "bootstrap-vue";
 import VueMq from "vue-mq";
 import AOS from "aos"
 import 'aos/dist/aos.css';
+import VueCarousel from 'vue-carousel'
 
 Vue.component("b-button", BButton);
 Vue.use(BootstrapVue);
@@ -21,6 +22,7 @@ Vue.use(VueMq, {
     desktop: Infinity
   }
 });
+Vue.use(VueCarousel)
 Vue.config.productionTip = false;
 
 new Vue({

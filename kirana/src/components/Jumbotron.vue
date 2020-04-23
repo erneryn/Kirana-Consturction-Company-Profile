@@ -23,11 +23,13 @@
             <p class="title1">YOUR PARTNER IN</p>
             <p class="title2">BUILDING YOUR DREAMS</p>
             <div class="btn-group-mbl">
-              <b-button class="bt-mbl" variant="outline-secondary" pill
+              <b-button class="bt-mbl" variant="secondary" pill
                 >Construction</b-button
               >
-              <b-button class="bt-mbl" variant="outline-secondary" pill
-                >Material</b-button
+              <b-button class="bt-mbl bt2mbl" pill
+                ><span style="color:black;">
+                  Material
+                  </span> </b-button
               >
             </div>
           </div>
@@ -94,7 +96,7 @@ export default {
   justify-content: center;
   align-items: center;
   .left-item {
-    margin-left: 10vw;
+    margin-left: 5vw;
     .title1 {
       color: white;
       text-align: start;
@@ -120,14 +122,14 @@ export default {
       .bt2 {
         color: black;
         width: 12vw;
-        background-color: yellow;
+        background-color: #f1e960;
         font-size: 1.2vw;
       }
     }
   }
 }
 .right-item {
-  background-image: url("../assets/header.jpg");
+  background-image: url("https://i.ibb.co/SyCVT6L/header.jpg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -146,7 +148,6 @@ export default {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 25vh;
     .title1 {
       color: white;
       text-align: start;
@@ -169,6 +170,10 @@ export default {
   .bt-mbl {
     margin-bottom: 1vh;
     color: white;
+  }
+  .bt2mbl {
+    color: black;
+        background-color: #f1e960;
   }
 }
 

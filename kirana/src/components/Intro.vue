@@ -2,14 +2,14 @@
   <div class="intro">
     <div class="welcome">
       <img
-        src="../assets/intro.png"
+        src="https://i.ibb.co/gMYdkmB/intro.png"
         alt=""
         class="image"
         data-aos="fade-right"
         v-if="!mobileView"
       />
       <img
-        src="../assets/intro.png"
+        src="https://i.ibb.co/gMYdkmB/intro.png"
         alt=""
         class="image-mobile"
         v-if="mobileView"
